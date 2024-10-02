@@ -2,9 +2,6 @@ import PyPDF2
 import spacy
 import matplotlib.pyplot as plt
 
-# Load NLP model
-nlp = spacy.load('en_core_web_sm')
-
 # Extract text from PDF
 def extract_text_from_pdf(pdf_path):
     with open(pdf_path, 'rb') as file:
